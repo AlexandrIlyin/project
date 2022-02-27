@@ -8,18 +8,20 @@
 
 .header {
   @media only screen  and (max-width: 768px) { display: none;}
-  
   background-color: rgba(49, 49, 49, 1);
   width: 100%;
   height: 38px;
   display: flex;
+
   .navigation {
     display: flex;
     align-items: center;
     gap: 30px;
+
     &:nth-child(1) {
         margin-left: 140px;
     }
+
     a {
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
@@ -27,6 +29,7 @@
       color: white;
     }
   }
+
   .contacts {
     display: flex;
     margin-left: auto;
@@ -70,13 +73,13 @@
     margin-right: 23px;
     margin-left: 25px;
   }
-    @media only screen  and (max-width: 480px) {
+  @media only screen  and (max-width: 480px) {
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0;
   }
-  .main-section {
 
+  .main-section {
     .searching-string {
       display: flex;
       align-items: center;
@@ -85,8 +88,10 @@
       font-weight: 400;
       color: white;
       height: 90px;
+
       .menu-icon{
         display: none;
+
         @media only screen  and (max-width: 768px) {
           display: block;
           margin-left: 5px;
@@ -95,12 +100,13 @@
       }
       .Deliveri-link-tablet{
         display: none;
+
         @media only screen  and (max-width: 768px) { 
           display:flex;
           .car-img {
             margin-right: 5px;
             filter: invert(100%);
-            }
+          }
           a {
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
@@ -108,6 +114,7 @@
             font-weight: 400;
             color: black;
             margin-right: 120px;
+
             @media only screen  and (max-width: 768px) {
               margin-right: 5px;
             }
@@ -116,9 +123,10 @@
       }
       .logo {
         padding-right: 38px;
-          @media only screen  and (max-width: 1200px) {
-            padding-right: 0px;
-          }
+
+        @media only screen  and (max-width: 1200px) {
+          padding-right: 0px;
+        }
       }
       .searching-string-right-icons {
         display: flex;
@@ -127,6 +135,7 @@
         .bag {
           margin-left: 15px;
           margin-right: 30px;
+
           @media only screen  and (max-width: 1200px) {
             margin-left: 5px;
             margin-right: 10px;
@@ -135,15 +144,15 @@
       }
       
       input {
-        
         background: url(/img/search-icon.png)  no-repeat  left  ;
         background-position-x: 15px;
         padding-left: 40px;
         width: 72%;
         height: 50px;
-          @media only screen  and (max-width: 480px){
-            display: none;
-          }
+
+        @media only screen  and (max-width: 480px){
+          display: none;
+        }
       }
     }
 
@@ -181,9 +190,8 @@
         border-style: none;
         background-color: white;
         width: 5px;
+      }
     }
-    }
-    
     .navigation_tablet{
       a{
         text-decoration: none;
@@ -207,10 +215,9 @@
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 400;
-          @media only screen  and (max-width: 480px){
-
-            gap: 5px;
-            }
+        @media only screen  and (max-width: 480px){
+          gap: 5px;
+        }
       }
     }
     .ad {
@@ -235,12 +242,13 @@
             align-items: center;
             background-color: rgba(255, 255, 255, 1);
             .img-stroke {
-              filter: invert(30%);}
+              filter: invert(30%);
+            }
           }     
         }
         @media only screen  and (max-width: 480px){
           display: none;
-          }
+        }
       }
     .ad_left-button{
       @media only screen  and (max-width: 768px){
@@ -257,7 +265,6 @@
         width: 30px;
         height: 30px;
         background-color: rgba(157, 157, 157, 0.28);
-        
         }
       }
 
@@ -267,37 +274,39 @@
       align-items: flex-start;
       margin-left: 65px;
 
-        .ad_main-info_head {
-          font-family: 'Playfair Display', serif;
-          font-size: 50px;
-          font-weight: 700;
-          text-transform: uppercase;
-          margin-bottom: 15px;
-        }
-        .ad_main-info_text {
-          font-family: 'Roboto Condensed', sans-serif;
-          font-size: 16px;
-          font-weight: 400;
-          margin-bottom: 20px;
-        }
-        .ad_main-info_button{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 12px;
-          font-weight: 700;
-          width: 163px;
-          height: 45px;
-          background-color:  white;
-        }
+      .ad_main-info_head {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      .ad_main-info_text {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      .ad_main-info_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 700;
+        width: 163px;
+        height: 45px;
+        background-color:  white;
+      }
     }
 
     .ad_right-button{
+      margin-left: auto;
+      margin-right: 35px;
+
       @media only screen  and (max-width: 480px){
         display: none;
       }
-      margin-left: auto;
-      margin-right: 35px;
+
       .ad_right-button_div{
         display: flex;
         justify-content: center;
@@ -323,6 +332,7 @@
       text-decoration: none;
       color: black;
       margin-bottom: 20px;
+
       @media only screen  and (max-width: 768px){
         margin-left: 20px;
       }
@@ -331,6 +341,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+
       @media only screen  and (max-width: 615px){
         justify-content: center;
       }
@@ -413,7 +424,6 @@
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
             font-size: 9px;
-
           }
           .grey-sizes{
             color: rgba(196, 196, 196, 1);
@@ -434,10 +444,7 @@
         display: none;
       }
     .footer_navigation{
-
       margin-top: 60px;
-
-
       .footer_navigation_main{
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -450,13 +457,14 @@
         flex-wrap: wrap;
         width: 384px;
         height: 60px;
-          a {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            text-decoration: none;
-            color: black;
-          }
+        
+        a {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          text-decoration: none;
+          color: black;
+        }
       }
       .footer_navigation_sales{
         display: flex;
@@ -488,12 +496,7 @@
       align-items: flex-end;
       gap: 30px;
       margin-left: auto;
-
-
-      @media only screen  and (max-width: 800px){
-
-      }
-
+  
       .footer_contacts_logo{
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
@@ -551,10 +554,10 @@
     @media only screen  and (max-width: 1100px){
       display: flex;
       justify-content: space-between;
-
       margin-top: 20px;
       margin-bottom: 20px;
       gap: 10px;
+      
       a{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -562,9 +565,10 @@
         text-decoration: none;
         color: black;
       }
+
       @media only screen  and (max-width: 600px){
         display: none;
-        }
+      }
     }
   }
 
