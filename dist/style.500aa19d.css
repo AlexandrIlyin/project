@@ -359,27 +359,29 @@
   flex-direction: column;
   margin-left: 15px;
 }
-.page-margins .category-section .products .product .product_heart {
-  display: flex;
-  align-self: end;
+.page-margins .category-section .products .product .main-info-product-contetnt .product_heart {
+  display: block;
   margin-top: 35px;
   margin-right: 16px;
   margin-left: auto;
 }
-.page-margins .category-section .products .product .name {
+.page-margins .category-section .products .product .main-info-product-contetnt .product_image {
+  margin-left: 12%;
+}
+.page-margins .category-section .products .product .main-info-product-contetnt .name {
   margin-top: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   margin-left: 15px;
 }
-.page-margins .category-section .products .product .price {
+.page-margins .category-section .products .product .main-info-product-contetnt .price {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   margin-left: 15px;
 }
-.page-margins .category-section .products .product .category {
+.page-margins .category-section .products .product .main-info-product-contetnt .category {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 11px;
